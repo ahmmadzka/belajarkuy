@@ -4,7 +4,7 @@
 <div class="auth-container">
     <div class="left-panel">
         <div class="logo-container">
-            <img src="{{ asset('images/belajarsini-logo.png') }}" alt="BelajarSini.com Logo" class="logo">
+            <img src="{{ asset('images/logo.png') }}" alt="BelajarSini.com Logo" class="logo">
         </div>
         <div class="welcome-text">
             <h1>Bergabunglah dengan BelajarSini.com!</h1>

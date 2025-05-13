@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BelajarSini - Platform Belajar Mudah dan Menyenangkan</title>
+    <title>BelajarKuy - Platform Belajar Mudah dan Menyenangkan</title>
     <meta name="description" content="Platform belajar online yang mudah dan menyenangkan untuk semua kalangan.">
     
     <!-- External CSS -->
@@ -16,7 +16,7 @@
         <div class="container">
             <nav class="nav">
                 <a href="{{ route('home') }}" class="logo">
-                    <img src="{{ asset('images/logo.png') }}" alt="BelajarSini Logo">
+                    <img src="{{ asset('images/logo.png') }}" alt="BelajarKuy Logo">
                 </a>
                 
                 <div class="nav-menu" id="nav-menu">
@@ -49,15 +49,14 @@
                     <h1 class="hero-title">Belajar Jadi Lebih Mudah dan Menyenangkan</h1>
                     <p class="hero-description">
                         Nggak harus jago coding untuk bikin website yang profesional.
-                        BelajarSini.com hadir untuk bimbing kamu wujudkan website yang keren
-                        tanpa harus ngoding dan diajarin SEO agar muncul #1 Google
+                        BelajarKuy.com hadir untuk bimbing kamu wujudkan website dengan pembelajaran interaktif dan mudah dipahami.
                     </p>
                     <div class="hero-cta">
                         <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Mulai Belajar Sekarang</a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="{{ asset('images/hero-illustration.svg') }}" alt="Ilustrasi Belajar Online">
+                    <img src="{{ asset('images/gambar.png') }}" alt="Ilustrasi Belajar Online">
                 </div>
             </div>
         </div>
@@ -73,7 +72,7 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        BelajarSini adalah platform pembelajaran online yang dirancang untuk membuat belajar menjadi
+                        BelajarKuy.com adalah platform pembelajaran online yang dirancang untuk membuat belajar menjadi
                         lebih mudah dan menyenangkan. Kami percaya bahwa pendidikan berkualitas harus bisa diakses oleh
                         semua orang, di mana saja, dan kapan saja.
                     </p>
@@ -96,7 +95,7 @@
             <div class="features-cards">
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <img src="{{ asset('images/interactive-icon.svg') }}" alt="Ikon Interaktif">
+                        <img src="{{ asset('images/interaktif.png') }}" alt="Ikon Interaktif">
                     </div>
                     <h3 class="feature-title">Interaktif</h3>
                     <p class="feature-description">
@@ -105,7 +104,7 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <img src="{{ asset('images/quality-icon.svg') }}" alt="Ikon Kualitas">
+                        <img src="{{ asset('images/berkualitas.png') }}" alt="Ikon Kualitas">
                     </div>
                     <h3 class="feature-title">Materi Berkualitas</h3>
                     <p class="feature-description">
@@ -114,11 +113,11 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <img src="{{ asset('images/free-icon.svg') }}" alt="Ikon Gratis">
+                        <img src="{{ asset('images/chatbot.png') }}" alt="Ikon Chatbot">
                     </div>
-                    <h3 class="feature-title">Gratis</h3>
+                    <h3 class="feature-title">Chatbot</h3>
                     <p class="feature-description">
-                        Akses ke materi dasar tanpa biaya, belajar sesuai kemampuan dan kebutuhanmu.
+                        Layanan chatbot kami siap membantu kamu 24/7 dalam proses belajar dan navigasi platform.
                     </p>
                 </div>
             </div>
@@ -136,12 +135,12 @@
                 <div class="testimonial-slide">
                     <div class="testimonial-content">
                         <p class="testimonial-text">
-                            "Berkat BelajarSini, saya bisa membuat website profesional tanpa perlu belajar coding dari nol. 
+                            "Berkat BelajarKuy, saya bisa membuat website profesional tanpa perlu belajar coding dari nol. 
                             Materinya mudah dipahami dan sangat praktis!"
                         </p>
                         <div class="testimonial-author">
-                            <h4 class="author-name">Ahmad Ridwan</h4>
-                            <p class="author-info">Pemilik Bisnis Online</p>
+                            <h4 class="author-name">Budi Arie</h4>
+                            <p class="author-info">EX Menteri Kominfo</p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +151,7 @@
                             terstruktur dan mudah diikuti."
                         </p>
                         <div class="testimonial-author">
-                            <h4 class="author-name">Siti Nurhayati</h4>
+                            <h4 class="author-name">Ahmad Adzka Najhan</h4>
                             <p class="author-info">Mahasiswa</p>
                         </div>
                     </div>
@@ -160,12 +159,12 @@
                 <div class="testimonial-slide">
                     <div class="testimonial-content">
                         <p class="testimonial-text">
-                            "Setelah mengikuti tutorial di BelajarSini, website saya berhasil muncul di halaman pertama Google. 
+                            "Setelah mengikuti tutorial di BelajarKuy, website saya berhasil muncul di halaman pertama Google. 
                             Tips SEO-nya sangat bermanfaat!"
                         </p>
                         <div class="testimonial-author">
-                            <h4 class="author-name">Budi Santoso</h4>
-                            <p class="author-info">Blogger</p>
+                            <h4 class="author-name">Sandhika Galih</h4>
+                            <p class="author-info">Profesional</p>
                         </div>
                     </div>
                 </div>
@@ -193,7 +192,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="{{ asset('images/logo.png') }}" alt="BelajarSini Logo">
+                    <img src="{{ asset('images/logo.png') }}" alt="BelajarKuy Logo">
                     <p class="footer-tagline">Platform Belajar Online Terpercaya</p>
                 </div>
                 <div class="footer-links">
@@ -216,7 +215,7 @@
                     <div class="footer-link-group">
                         <h4 class="footer-link-title">Kontak</h4>
                         <ul class="footer-link-list">
-                            <li><a href="mailto:info@belajarsini.com">info@belajarsini.com</a></li>
+                            <li><a href="mailto:info@BelajarKuy.com">coretax@BelajarKuy.com</a></li>
                             <li><a href="tel:+6281234567890">+62 812-3456-7890</a></li>
                         </ul>
                     </div>
@@ -224,7 +223,7 @@
             </div>
             <div class="footer-bottom">
                 <p class="copyright">
-                    &copy; {{ date('Y') }} BelajarSini. Hak Cipta Dilindungi.
+                    &copy; {{ date('Y') }} BelajarKuy. Hak Cipta Dilindungi.
                 </p>
                 <div class="social-links">
                     <a href="#" class="social-link"><img src="{{ asset('images/facebook.svg') }}" alt="Facebook"></a>

@@ -16,7 +16,7 @@
         <header class="app-header">
             <div class="header-logo">
                 <a href="{{ url('/') }}">
-                    <img src="{{ asset('images/belajarsini-logo.png') }}" alt="BelajarSini.com Logo" class="logo">
+                    <img src="{{ asset('images/logo.png') }}" alt="BelajarSini.com Logo" class="logo">
                 </a>
             </div>
             
