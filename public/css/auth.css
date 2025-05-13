@@ -1,0 +1,299 @@
+/* ======================================
+   Auth Pages (Login & Register) Styles
+   ====================================== */
+
+:root {
+    /* Light Mode Colors */
+    --primary-color: #3B82F6;    /* Biru terang – edukatif dan profesional */
+    --secondary-color: #F3F4F6;  /* Abu terang – latar belakang lembut */
+    --accent-color: #111827;     /* Hitam pekat – untuk teks utama */
+    
+    /* Tambahan warna */
+    --white: #ffffff;
+    --light-gray: #e5e7eb;
+    --gray: #9ca3af;
+    --error: #ef4444;
+    --success: #10b981;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    
+    /* Font */
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #1a202c; /* Dark background for contrast */
+    color: var(--accent-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Auth Container */
+.auth-container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 600px;
+    background-color: var(--white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin: var(--spacing-xl);
+}
+
+/* Split Panels */
+.left-panel {
+    flex: 1;
+    background-color: #1a202c; /* Dark navy background */
+    color: var(--white);
+    padding: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: var(--white);
+    padding: var(--spacing-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo */
+.logo-container {
+    margin-bottom: var(--spacing-xl);
+}
+
+.logo {
+    max-width: 220px;
+}
+
+/* Welcome Text */
+.welcome-text h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    color: var(--white);
+}
+
+.welcome-text p {
+    font-size: 1rem;
+    opacity: 0.85;
+    line-height: 1.6;
+}
+
+/* Auth Form */
+.auth-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-form h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+    color: var(--accent-color);
+}
+
+.subtitle {
+    color: var(--gray);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.form-control {
+    width: 100%;
+    padding: var(--spacing-md);
+    border: 1px solid var(--light-gray);
+    border-radius: var(--radius-md);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    font-family: var(--font-family);
+}
+
+.btn-block {
+    width: 100%;
+    margin-bottom: var(--spacing-sm);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
+
+.btn-whatsapp {
+    background-color: #25D366; /* WhatsApp green */
+    color: var(--white);
+}
+
+.btn-whatsapp:hover {
+    background-color: #20bd5a; /* Darker green on hover */
+}
+
+/* Icons */
+.icon-login,
+.icon-whatsapp {
+    margin-right: var(--spacing-sm);
+}
+
+/* Footer Links */
+.form-footer {
+    text-align: center;
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--light-gray);
+}
+
+.form-footer p {
+    margin-bottom: var(--spacing-xs);
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+.form-footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Alert Messages */
+.alert {
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.alert-danger {
+    background-color: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: var(--error);
+}
+
+.alert ul {
+    list-style-type: none;
+}
+
+/* Package Selection (Register Page) */
+.package-label {
+    display: block;
+    margin-bottom: var(--spacing-sm);
+    font-weight: 500;
+}
+
+.package-options {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.package-option {
+    flex: 1;
+}
+
+.package-option input[type="radio"] {
+    display: none;
+}
+
+.package-option label {
+    display: block;
+    padding: var(--spacing-md);
+    border: 2px solid var(--light-gray);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.package-option input[type="radio"]:checked + label {
+    border-color: var(--primary-color);
+    background-color: rgba(59, 130, 246, 0.05);
+}
+
+.package-name {
+    display: block;
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+}
+
+.package-desc {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-container {
+        flex-direction: column;
+        margin: var(--spacing-md);
+    }
+    
+    .left-panel {
+        padding: var(--spacing-lg);
+        text-align: center;
+    }
+    
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .package-options {
+        flex-direction: column;
+    }
+}
